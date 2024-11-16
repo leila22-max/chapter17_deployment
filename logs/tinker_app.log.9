@@ -1,0 +1,93 @@
+2024-06-18 17:39:31,115 Exception on /home [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/routes.py", line 31, in index
+    return render_template('index.html',
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/templates/index.html", line 58, in template
+    {% sort_by current_user_posts %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'sort_by'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2024-06-18 18:03:20,775 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-18 18:03:28,989 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-19 14:15:11,968 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-19 14:15:25,201 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:08:15,574 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:08:37,490 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:22:18,420 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:23:00,609 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:23:32,267 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:26:05,249 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:26:23,346 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:26:36,512 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-22 12:26:47,844 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter13_pagination_assesment/app/__init__.py:49]
+2024-06-23 15:00:21,765 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-23 15:17:53,247 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-23 15:17:57,169 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-24 14:44:11,939 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-24 14:44:17,796 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-25 09:33:24,869 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-25 09:33:27,902 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-25 17:07:17,834 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 11:58:47,309 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:25:44,411 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:29:03,885 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:35:58,569 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:55:25,917 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:55:31,213 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 12:57:27,415 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 13:00:00,058 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-06-29 13:00:04,579 Exception on /login [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/routes.py", line 111, in login
+    return render_template('login.html', title='Login', form=form)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/templates/login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/templates/base.html", line 68, in top-level template code
+    {% block content %}
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/templates/login.html", line 59, in block 'content'
+    <a href="{{ url_for('Request Password Reset')}}"> Reset Here</a>
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1074, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1063, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/mokeira/.local/lib/python3.8/site-packages/werkzeug/routing/map.py", line 919, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Request Password Reset'. Did you mean 'static' instead?

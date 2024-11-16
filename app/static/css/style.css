@@ -1,0 +1,17 @@
+.hero-heading h1{
+    margin: 60px;
+    font-size: 60px;
+    color: grey;
+}
+.hero-image img{
+    margin: 30px;
+    border-radius: 30px;
+}
+.hero-button button{
+    padding: 3px;
+    font-size: 40px;
+    color: white;
+}
+.image{
+    height: 50%;
+}

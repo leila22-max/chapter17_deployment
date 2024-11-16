@@ -1,0 +1,116 @@
+2024-07-16 17:48:39,238 Exception on /request-password-reset [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/routes.py", line 180, in request_password_reset
+    return render_template(
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: request_password_reset.html
+2024-07-16 17:57:38,178 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-16 17:57:46,424 Exception on /request-password-reset [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/routes.py", line 180, in request_password_reset
+    return render_template(
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: request_password_reset.html
+2024-07-17 18:23:38,303 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-17 18:23:56,009 Exception on /request-password-reset [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/routes.py", line 180, in request_password_reset
+    return render_template(
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: request_password_reset.html
+2024-07-20 11:39:48,429 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-20 11:40:04,011 Exception on /request-password-reset [GET] [in /home/mokeira/.local/lib/python3.8/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/routes.py", line 180, in request_password_reset
+    return render_template(
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/mokeira/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/mokeira/.local/lib/python3.8/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: request_password_reset.html
+2024-07-20 12:09:15,081 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-20 12:25:28,922 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-20 12:25:33,741 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-20 12:53:15,496 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
+2024-07-20 12:53:48,426 Tinker Full-Stack App [in /mnt/c/Users/user/Desktop/Folders/software_development/chapter14_working_with_emails/app/__init__.py:51]
